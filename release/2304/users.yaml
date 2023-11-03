@@ -1,0 +1,7 @@
+version: 1.0
+kind: users
+users:
+    - email: bkburakkaya@outlook.com
+      roles:
+        customer_developer:
+          - stag
