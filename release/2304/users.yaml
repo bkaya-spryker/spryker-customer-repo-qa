@@ -3,5 +3,9 @@ kind: users
 users:
     - email: bkburakkaya@outlook.com
       roles:
+        ssh:
+          - stag
+        vpn:
+          - stag
         customer_developer:
           - stag
