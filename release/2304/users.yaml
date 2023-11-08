@@ -2,6 +2,11 @@ version: 1.0
 kind: users
 users:
     - email: bkburakkaya@outlook.com
+      ssh_key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtq9WTypDs9JRXIakhVq0DPZxfprdC7hYtZNzjJ0WeStFCL+hueoCyDBaZ+BWKeI2qgMxFzzsxhzsU00U0Pnwpbu56Em0HEGy8vwZrWUDmmyZmYRGFpWlJ/b5SRThQXR7sNiM8KdJFI2gtVHFTJsr9gud5zDIGk9XhwW8MVgyLrvkkyRCaBkLZs2pP0kt0mkhCSK8pDFeblB1p8c1ABAhWYVbW3aBSDt2pfEsYVViIbP0eeLAHYh02pHfdgwBTcR5XoCaphAtbd27Jdjoz4gz3g39ZBtthAcoqlSLZwJGOZvraIr06+nnTKyaC1kY2ZqbCWuIpiDaqnHgu2WHTCMAlcd7aAzQlwuLYVtapVlHyET1Y35hw2LInH26srNxTmS6i8pXGv/vyIzxjEpFMwyvl9qin5nX2gGmXkkl+o0naHrrldSGDX52zmh2+7jlyJpkjpd8Ymg66Hb5Ppgg1kY8GvPV68NG7k90u6SelC74l7OgjP7yZAZhOJyctHj61Jpk= burakkaya-spryker@Buraks-MacBook-Pro.local'
       roles:
+        ssh:
+          - stag
+        vpn:
+          - stag
         customer_developer:
           - stag
