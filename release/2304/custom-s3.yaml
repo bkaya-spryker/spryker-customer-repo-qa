@@ -4,8 +4,8 @@ service-file-storage:
   - reference: "custom-s3"                      # Random reference key. Any string values are accessible
     engine: s3                                  # Engine type
     bucket_suffix: "burak-qa-test1"             # Bucket name
-    bucket_type: "public"                       # Bucket type
+    bucket_type: "private"                      # Bucket type
   - reference: "custom-s3"
     engine: s3
     bucket_suffix: "burak-qa-test2"
-    bucket_type: "public"
+    bucket_type: "private"
